@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fentcraft",
+	"version": "${version}",
+	"name": "fent craft",
+	"description": "fent.",
+	"authors": [
+		"swetidev"
+	],
+	"contact": {
+		"homepage": "https://sweti.site/",
+		"sources": "https://github.com/swetidevy"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fentcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"swetidev.fentcraft.FentCraft"
+		],
+		"fabric-datagen": [
+			"swetidev.fentcraft.FentCraftDataGenerator"
+		],
+		"client": [
+			"swetidev.fentcraft.FentCraftClient"
+		]
+	},
+	"mixins": [
+		"fentcraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
