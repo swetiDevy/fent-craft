@@ -1,4 +1,10 @@
 {
-  "item.fentcraft.fentanyl": "fentanyl",
-  "item.fentcraft.empty_needle": "empty needle"
+  "item.fentcraft.fentanyl": "Fentanyl",
+  "item.fentcraft.empty_needle": "Empty Needle",
+  "item.fentcraft.tranq_needle": "Tranq needle",
+  "item.fentcraft.xylazine": "Xylazine",
+
+  "block.fentcraft.fent_block": "Fent Block",
+
+  "itemgroup.fentcraft.opioids_and_other_psychedelic": "Opioids And Other Psychedelic"
 }

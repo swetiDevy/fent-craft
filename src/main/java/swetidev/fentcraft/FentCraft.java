@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import swetidev.fentcraft.block.ModBlocks;
+import swetidev.fentcraft.item.ModItemGroups;
 import swetidev.fentcraft.item.ModItems;
 
 public class FentCraft implements ModInitializer {
@@ -20,6 +22,8 @@ public class FentCraft implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 
 	}
 }

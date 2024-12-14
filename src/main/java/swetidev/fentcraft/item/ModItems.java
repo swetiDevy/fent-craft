@@ -14,6 +14,8 @@ public class ModItems {
 
     public static final Item FENTANYL = registerItem("fentanyl", new Item(new Item.Settings()));
     public static final Item EMPTY_NEEDLE = registerItem("empty_needle", new Item(new Item.Settings()));
+    public static final Item TRANQ_NEEDLE = registerItem("tranq_needle", new Item(new Item.Settings()));
+    public static final Item XYLAZINE = registerItem("xylazine", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name,Item item){
@@ -23,9 +25,11 @@ public class ModItems {
     public static void registerModItems(){
         FentCraft.LOGGER.info("Registering Mod items for " + FentCraft.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+       /* ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(FENTANYL );
             entries.add(EMPTY_NEEDLE);
-        });
+            entries.add(TRANQ_NEEDLE);
+            entries.add(XYLAZINE);
+        });*/
     }
 }
