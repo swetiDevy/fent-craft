@@ -2,8 +2,12 @@
   "item.fentcraft.fentanyl": "Fentanyl",
   "item.fentcraft.empty_needle": "Empty Needle",
   "item.fentcraft.tranq_needle": "Tranq needle",
+  "item.fentcraft.opium_needle": "Opium needle",
   "item.fentcraft.xylazine": "Xylazine",
+  "item.fentcraft.opium": "Opium",
+  "item.fentcraft.opium_seeds": "Opium Seeds",
 
+  "block.fentcraft.opium_crop": "Opium Crop",
   "block.fentcraft.fent_block": "Fent Block",
 
   "itemgroup.fentcraft.opioids_and_other_psychedelic": "Opioids And Other Psychedelic"

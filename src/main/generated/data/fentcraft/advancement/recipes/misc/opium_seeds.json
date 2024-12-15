@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_opium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fentcraft:opium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "fentcraft:opium_seeds"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_opium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "fentcraft:opium_seeds"
+    ]
+  }
+}

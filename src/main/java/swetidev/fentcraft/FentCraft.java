@@ -2,6 +2,7 @@ package swetidev.fentcraft;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import swetidev.fentcraft.block.ModBlocks;
@@ -25,5 +26,8 @@ public class FentCraft implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
 
+
+		CompostingChanceRegistry.INSTANCE.add(ModItems.OPIUM, 0.69f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.OPIUM_SEEDS, 0.25f);
 	}
 }

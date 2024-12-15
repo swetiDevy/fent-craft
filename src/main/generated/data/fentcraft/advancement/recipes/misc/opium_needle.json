@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_empty_needle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fentcraft:empty_needle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_opium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fentcraft:opium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "fentcraft:opium_needle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_xylazine": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fentcraft:xylazine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_opium",
+      "has_empty_needle",
+      "has_xylazine"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "fentcraft:opium_needle"
+    ]
+  }
+}

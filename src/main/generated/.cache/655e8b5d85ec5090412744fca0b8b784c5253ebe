@@ -1,0 +1,19 @@
+// 1.21.1	2024-12-15T20:31:47.8033248	fent craft/Model Definitions
+efd175a38e6b7870c95caeb90f8567d783ebc203 assets\fentcraft\blockstates\opium_crop.json
+dd9fadd260f5438c444e98197b8c7452b7a3c54a assets\fentcraft\models\block\opium_crop_stage0.json
+e8b8755db9f8e8294a2722987578fa60ba3ccf75 assets\fentcraft\models\block\opium_crop_stage6.json
+56e5bf53b762dcf934d467cbdfb099a37f7a7506 assets\fentcraft\models\item\opium.json
+f18ed9e580294cc65c8d0f8c30222f039983603b assets\fentcraft\blockstates\fent_block.json
+0003d37199bbfc2cc10df122127f538d61b1e12b assets\fentcraft\models\item\fent_block.json
+eca521bb3461a9823e07250e14c83bf96106ca38 assets\fentcraft\models\item\empty_needle.json
+4c9f6c83e6c33550235e519b0a5cc55f65cada56 assets\fentcraft\models\item\opium_needle.json
+866f07d64fcbe6ab3d1f909b3e46a849c271f6a1 assets\fentcraft\models\item\fentanyl.json
+3718f1cd6e82b639ca3e42d77416cf36d08682d7 assets\fentcraft\models\block\opium_crop_stage3.json
+ba4403e9cce0655a5cb3725a1b412766c8173758 assets\fentcraft\models\item\tranq_needle.json
+a2f8360b1faf140b6c262c8f2207c16170a1acd3 assets\fentcraft\models\item\xylazine.json
+d4b92942d7a12f96116efd4f2a84f22ddf8361ef assets\fentcraft\models\block\opium_crop_stage1.json
+399d3058cbdbfd89317812c02cd6d7ae044ff6ea assets\fentcraft\models\block\opium_crop_stage5.json
+b7a3a2661e83bc5575adc40c6466f301eae6c059 assets\fentcraft\models\block\fent_block.json
+c7ed3f8ee15c9a1fc0bcc624c453d5d1519246f7 assets\fentcraft\models\block\opium_crop_stage2.json
+82320b8daba6bc1b7c43ba745e80c60376f7c3ce assets\fentcraft\models\block\opium_crop_stage4.json
+063ae28b6939dbbe00998bcaaa4b63f7f719e581 assets\fentcraft\models\item\opium_seeds.json

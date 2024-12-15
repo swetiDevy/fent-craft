@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "fentcraft:block/opium_crop_stage5"
+  }
+}

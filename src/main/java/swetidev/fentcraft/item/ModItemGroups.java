@@ -18,10 +18,13 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.fentcraft.opioids_and_other_psychedelic"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.FENTANYL);
+                        entries.add(ModBlocks.FENT_BLOCK);
+                        entries.add(ModItems.OPIUM);
+                        entries.add(ModItems.OPIUM_SEEDS);
+                        entries.add(ModItems.XYLAZINE);
                         entries.add(ModItems.EMPTY_NEEDLE);
                         entries.add(ModItems.TRANQ_NEEDLE);
-                        entries.add(ModItems.XYLAZINE);
-                        entries.add(ModBlocks.FENT_BLOCK);
+                        entries.add(ModItems.OPIUM_NEEDLE);
                     }).build());
 
 

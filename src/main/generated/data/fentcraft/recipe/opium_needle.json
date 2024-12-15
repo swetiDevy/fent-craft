@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "fentcraft:empty_needle"
+    },
+    "O": {
+      "item": "fentcraft:opium"
+    },
+    "X": {
+      "item": "fentcraft:xylazine"
+    }
+  },
+  "pattern": [
+    "OEX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fentcraft:opium_needle"
+  }
+}

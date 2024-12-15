@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fentanyl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fentcraft:fentanyl"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:fent_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fentanyl"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:fent_block"
+    ]
+  }
+}
