@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "ingredients",
+  "key": {
+    "#": {
+      "item": "fentcraft:fentanyl"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "fentcraft:fent_block"
+  }
+}

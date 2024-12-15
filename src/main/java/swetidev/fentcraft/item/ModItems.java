@@ -12,7 +12,7 @@ import swetidev.fentcraft.FentCraft;
 
 public class ModItems {
 
-    public static final Item FENTANYL = registerItem("fentanyl", new Item(new Item.Settings()));
+    public static final Item FENTANYL = registerItem("fentanyl", new Item(new Item.Settings().food(ModFoodComponents.FENTANYL)));
     public static final Item EMPTY_NEEDLE = registerItem("empty_needle", new Item(new Item.Settings()));
     public static final Item TRANQ_NEEDLE = registerItem("tranq_needle", new Item(new Item.Settings()));
     public static final Item XYLAZINE = registerItem("xylazine", new Item(new Item.Settings()));

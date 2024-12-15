@@ -16,8 +16,8 @@ import swetidev.fentcraft.FentCraft;
 public class ModBlocks {
 
     public static final Block FENT_BLOCK = registerBlock("fent_block",new Block(AbstractBlock.Settings.create()
-            .strength(4f)
-            .requiresTool()
+            .strength(3f)
+            //.requiresTool()
             .sounds(BlockSoundGroup.SNOW)));
 
 
