@@ -27,7 +27,7 @@ public class FentCraft implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 
-		CompostingChanceRegistry.INSTANCE.add(ModItems.OPIUM, 0.69f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.RAW_OPIUM, 0.69f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.OPIUM_SEEDS, 0.25f);
 	}
 }

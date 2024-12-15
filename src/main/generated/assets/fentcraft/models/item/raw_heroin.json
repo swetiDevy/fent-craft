@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "fentcraft:item/opium"
+    "layer0": "fentcraft:item/raw_heroin"
   }
 }

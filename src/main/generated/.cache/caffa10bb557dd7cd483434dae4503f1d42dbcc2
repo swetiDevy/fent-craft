@@ -1,13 +1,13 @@
-// 1.21.1	2024-12-15T20:31:47.8033248	fent craft/Recipes
-c740aca7d690ebda31fea0b4fd0798bc70c0b447 data\fentcraft\advancement\recipes\food\fentanyl.json
+// 1.21.1	2024-12-15T22:56:39.9576949	fent craft/Recipes
 a90cd79726c6c086e1594f1d6142fb4bd5059ec4 data\fentcraft\recipe\xylazine.json
 fed5f77c033052ccb1036f9348805ed582f80a54 data\fentcraft\advancement\recipes\misc\xylazine.json
-c8e20fcf7b0c806318a3153bbc7fa958399ec947 data\fentcraft\recipe\fentanyl.json
-82e9a1d329ee3fb0267737fef76775d8d99c6968 data\fentcraft\advancement\recipes\misc\opium_seeds.json
-6c9807525f36496299387aec30f7312a2dc9abb7 data\fentcraft\recipe\opium_needle.json
-4f3adc7ea2b7fc650589b51f659c31a5edad1dda data\fentcraft\advancement\recipes\misc\opium_needle.json
+4645b1c03b94233f568fa20b076b8c8f9ff447d9 data\fentcraft\advancement\recipes\food\raw_fentanyl.json
+eb0a01a627604796bd569e867d947a15757022f5 data\fentcraft\advancement\recipes\misc\opium_seeds.json
+0a9b2d5abdbc3126973e1ae32acad8fa22a7cbe3 data\fentcraft\recipe\opium_needle.json
+b515d4a2c661dfabaaf0cd4024a2bc636a7be013 data\fentcraft\advancement\recipes\misc\opium_needle.json
 7005d6df6bc8331add20ecdd7ab8256869b0c4f3 data\fentcraft\recipe\empty_needle.json
-9256f5b60e746f30c88637ad7aa8af544a1a8298 data\fentcraft\recipe\fent_block.json
+9b7e2b2f6a23369a631358e80c82e44cef223149 data\fentcraft\recipe\fent_block.json
+bb7f5c4949d6bb45b3b79e36affd66c4cc712b82 data\fentcraft\recipe\raw_fentanyl.json
 1d59cd6de47fe6984c2d7b7836ac4e8bc5e171f5 data\fentcraft\advancement\recipes\misc\empty_needle.json
-5c315c0bae26f69a8a4112cb7ffed3f8cdffcecd data\fentcraft\recipe\opium_seeds.json
-e2b145c89527d5228d605e3ce9a15312876a0ddc data\fentcraft\advancement\recipes\building_blocks\fent_block.json
+3b1df4bfdbb4937c3ef7ced67aeca7e1fa33d553 data\fentcraft\recipe\opium_seeds.json
+e4afc8bbdac8781255ab439ccafef02a6c11292a data\fentcraft\advancement\recipes\building_blocks\fent_block.json

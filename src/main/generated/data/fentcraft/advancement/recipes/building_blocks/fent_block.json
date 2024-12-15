@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_fentanyl": {
+    "has_raw_fentanyl": {
       "conditions": {
         "items": [
           {
-            "items": "fentcraft:fentanyl"
+            "items": "fentcraft:raw_fentanyl"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_fentanyl"
+      "has_raw_fentanyl"
     ]
   ],
   "rewards": {

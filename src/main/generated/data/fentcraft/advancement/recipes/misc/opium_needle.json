@@ -11,11 +11,11 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_opium": {
+    "has_raw_opium": {
       "conditions": {
         "items": [
           {
-            "items": "fentcraft:opium"
+            "items": "fentcraft:raw_opium"
           }
         ]
       },
@@ -41,7 +41,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_opium",
+      "has_raw_opium",
       "has_empty_needle",
       "has_xylazine"
     ]

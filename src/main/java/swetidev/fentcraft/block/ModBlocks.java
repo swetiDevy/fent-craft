@@ -1,15 +1,11 @@
 package swetidev.fentcraft.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
-import net.minecraft.block.PumpkinBlock;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -50,9 +46,5 @@ public class ModBlocks {
 
     public static void registerModBlocks(){
         FentCraft.LOGGER.info("Registering Mod blocks for " + FentCraft.MOD_ID);
-
-      /*  ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries ->{
-            entries.add(ModBlocks.FENT_BLOCK);
-        });*/
     }
 }

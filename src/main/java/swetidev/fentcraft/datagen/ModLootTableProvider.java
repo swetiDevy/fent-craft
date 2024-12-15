@@ -23,6 +23,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.OPIUM_CROP)
                 .properties(StatePredicate.Builder.create().exactMatch(OpiumCropBlock.AGE, OpiumCropBlock.MAX_AGE));
-        this.addDrop(ModBlocks.OPIUM_CROP, this.cropDrops(ModBlocks.OPIUM_CROP, ModItems.OPIUM, ModItems.OPIUM_SEEDS, builder2));
+        this.addDrop(ModBlocks.OPIUM_CROP, this.cropDrops(ModBlocks.OPIUM_CROP, ModItems.RAW_OPIUM, ModItems.OPIUM_SEEDS, builder2));
     }
 }

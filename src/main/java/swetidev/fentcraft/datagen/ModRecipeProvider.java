@@ -6,7 +6,6 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
-import net.minecraft.item.MinecartItem;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import swetidev.fentcraft.block.ModBlocks;
@@ -21,7 +20,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter exporter) {
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.FOOD, ModItems.FENTANYL, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FENT_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.FOOD, ModItems.RAW_FENTANYL, RecipeCategory.BUILDING_BLOCKS, ModBlocks.FENT_BLOCK);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.EMPTY_NEEDLE)//empty needle
                 .pattern(" N ")
@@ -32,8 +31,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_NUGGET),conditionsFromItem(Items.IRON_NUGGET))
                 .offerTo(exporter);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.OPIUM_SEEDS, 2).input(ModItems.OPIUM)//opium seeds
-                .criterion(hasItem(ModItems.OPIUM),conditionsFromItem(ModItems.OPIUM))
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.OPIUM_SEEDS, 2).input(ModItems.RAW_OPIUM)//opium seeds
+                .criterion(hasItem(ModItems.RAW_OPIUM),conditionsFromItem(ModItems.RAW_OPIUM))
                 .offerTo(exporter);
 
 
@@ -53,10 +52,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OPIUM_NEEDLE, 1)
                 .pattern("OEX")
-                .input('O', ModItems.OPIUM)
+                .input('O', ModItems.RAW_OPIUM)
                 .input('E', ModItems.EMPTY_NEEDLE)
                 .input('X', ModItems.XYLAZINE)
-                .criterion(hasItem(ModItems.OPIUM),conditionsFromItem(ModItems.OPIUM))
+                .criterion(hasItem(ModItems.RAW_OPIUM),conditionsFromItem(ModItems.RAW_OPIUM))
                 .criterion(hasItem(ModItems.EMPTY_NEEDLE),conditionsFromItem(ModItems.EMPTY_NEEDLE))
                 .criterion(hasItem(ModItems.XYLAZINE),conditionsFromItem(ModItems.XYLAZINE))
                 .offerTo(exporter);

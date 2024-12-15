@@ -1,10 +1,11 @@
 {
-  "item.fentcraft.fentanyl": "Fentanyl",
+  "item.fentcraft.raw_fentanyl": "Raw Fentanyl",
+  "item.fentcraft.raw_opium": "Raw Opium",
+  "item.fentcraft.raw_heroin": "Raw Heroin",
   "item.fentcraft.empty_needle": "Empty Needle",
   "item.fentcraft.tranq_needle": "Tranq Needle",
   "item.fentcraft.opium_needle": "Opium Needle",
   "item.fentcraft.xylazine": "Xylazine",
-  "item.fentcraft.opium": "Opium",
   "item.fentcraft.opium_seeds": "Opium Seeds",
 
   "block.fentcraft.opium_crop": "Opium Crop",
